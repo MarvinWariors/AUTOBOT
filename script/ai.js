@@ -6,7 +6,7 @@ module.exports.config = {
   hasPrefix: false,
   aliases: ['gpt', 'openai'],
   description: "An AI command powered by GPT-4",
-  usage: "Ai [promot]",
+  usage: "Ai2 [promot]",
   credits: 'Developer',
   cooldown: 3,
 };
@@ -26,7 +26,7 @@ module.exports.run = async function({
       data
     } = await axios.get(`https://soyeon-api.onrender.com/api?prompt=${encodeURIComponent(input)}`);
     const response = data.response;
-    api.sendMessage(response + '\n\nhttps://bit.ly/create-chatbot-me', event.threadID, event.messageID);
+    api.sendMessage(response + '\n\nhttps://www.facebook.com/profile.php?id=61560386714149', event.threadID, event.messageID);
   } catch (error) {
     api.sendMessage('An error occurred while processing your request.', event.threadID, event.messageID);
   }
