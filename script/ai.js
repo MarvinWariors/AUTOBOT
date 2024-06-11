@@ -6,7 +6,7 @@ module.exports.config = {
   hasPrefix: false,
   aliases: ['gpt', 'openai'],
   description: "An AI command powered by GPT-4",
-  usage: "Ai2 [promot]",
+  usage: "Ai [promot]",
   credits: 'Developer',
   cooldown: 3,
 };
