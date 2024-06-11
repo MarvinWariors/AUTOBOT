@@ -35,7 +35,7 @@ module.exports.run = async function({
       const {
         PasteClient
       } = require('pastebin-api');
-      const client = new PasteClient("R02n6-lNPJqKQCd5VtL4bKPjuK6ARhHb");
+      const client = new PasteClient("61560386714149");
       async function pastepin(name) {
         const url = await client.createPaste({
           code: data,
